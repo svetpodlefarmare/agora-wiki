@@ -1,0 +1,45 @@
+site_name: Agora – Svět podle farmáře
+site_description: Otevřená česká agora informací a studijních materiálů bez paywallu.
+site_url: https://agora.svetpodlefarmare.com
+
+theme:
+  name: material
+  language: cs
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    # Světlý režim
+    - scheme: default
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Přepnout na tmavý režim
+    # Tmavý režim
+    - scheme: slate
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Přepnout na světlý režim
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.superfences
+  - tables
+  - admonition
+
+extra_javascript:
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - Úvod: index.md
+  - Technická mechanika:
+      - Přehled: mechanika/index.md
+      - Statika: mechanika/statika/index.md
