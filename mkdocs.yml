@@ -42,4 +42,6 @@ nav:
   - Úvod: index.md
   - Technická mechanika:
       - Přehled: mechanika/index.md
-      - Statika: mechanika/statika/index.md
+      - Statika:
+          - Obsah statiky: mechanika/statika/index.md
+          - 1. Statika a silové účinky: mechanika/statika/01-statika-a-silove-ucinky.md
