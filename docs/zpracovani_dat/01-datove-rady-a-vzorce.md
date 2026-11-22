@@ -33,6 +33,6 @@ Pomocí vzorců v buňkách tak můžeme dopočítat různé další hodnoty a d
 |4,4|17|
 |4,7|18|
 
-a teké lze z našich dat urči jiné hodnoty, například hodnotu označenou K, která je rovna $K = čas \cdot naměřená data$
+a teké lze z našich dat urči jiné hodnoty, například hodnotu označenou K, která je rovna $K = čas \cdot naměřená \. data$
 
 
