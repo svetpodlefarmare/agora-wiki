@@ -45,3 +45,5 @@ nav:
       - Statika:
           - Obsah statiky: mechanika/statika/index.md
           - 1. Statika a silové účinky: mechanika/statika/01-statika-a-silove-ucinky.md
+  - Pokročilé zpracování dat v excelu:
+      - Přehled: zpracovani_dat/index.md
