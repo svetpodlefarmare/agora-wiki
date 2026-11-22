@@ -33,4 +33,6 @@ Pomocí vzorců v buňkách tak můžeme dopočítat různé další hodnoty a d
 |4,4|17|
 |4,7|18|
 
-Dále víme že existují další další dvě konstanty, první koonstanta roste opět lineárně od čísla 1 s krokem 0,7. Druhá konstanta je také řada, která se ale zmenšuje z čísla 3 krokem 0,25. 
+a teké lze z našich dat urči jiné hodnoty, například hodnotu označenou K, která je rovna $K = čas \cdot naměřená data$
+
+
