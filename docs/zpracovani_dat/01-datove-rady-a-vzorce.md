@@ -1,9 +1,9 @@
-Při zpracování dat se nám hodí občas dodat předem dano udatovou řadu. Může se jednat o měsíce v roce nebo dny v týdnu. Často si také budeme muset dodat čadu lineárně rostoucích čísel. Například, dostaneme-li řadu čísel a víme že se jedná o hodnoty v závislosti na jiné řadě. 
-Ta nám ale nebyla dána, tudíž si ji musíme připravit abychom například mohli data zobrazit. Představme si příklad:
+#Datové řady a vzorce
+## 1. Zadaní
 
-Mějme 
+Mějme tato naměřená data:
 
-|čas (t)|naměřená data|
+|čas (t)|naměřená data M|
 |:---:|:---:|
 ||3|
 ||5|
@@ -16,7 +16,11 @@ Mějme
 ||17|
 ||18|
 
-naměřená data z nějakého senzoru ši z jiného zdroje. Ale nemáme jednotlivé časy, jen víme že meření proběhlo každých $300 \mathrm{ms}$ a začínalo v čase $2 \mathrm{s}$. Tabulku si můžeme tak doplnit pro další zpracování. 
+Úkolem je doplnit časovou řadu začínající v čase $2 \mathrm{s}$ s krokem $300 \mathrm{ms}$.
+
+Dále, doplnit dvě konstanty, jedna roste z hodnoty 1 krokem 0,7, druhá klesala z hodnoty 3 krokem 0,25. 
+Následně vypočítat průměr konstant.
+V poslední části určit hodnoty S, která je rovna $S = \mathrm{průměr konstant} \cdot \cos(t*M)$ 
 
 Pomocí vzorců v buňkách tak můžeme dopočítat různé další hodnoty a dohledat a případně tak zobrazit další závislosti. Pokračujme tedy v našem příkladu. Víme tedy
 
@@ -33,6 +37,6 @@ Pomocí vzorců v buňkách tak můžeme dopočítat různé další hodnoty a d
 |4,4|17|
 |4,7|18|
 
-a teké lze z našich dat urči jiné hodnoty, například hodnotu označenou K, která je rovna $K = čas \cdot naměřená \. data$
+a teké lze z našich dat urči jiné hodnoty, například hodnotu označenou K, která je rovna $K = čas \cdot naměřenádata$. Pomocí tak relatin
 
 
