@@ -19,6 +19,9 @@ c) Účinek dvou stejně velkých sil opačené orientace na jedné nostielce se
 
 Výše uvedené vlastnosti platí pouze pro tělesa u nichž neuvažujeme deformace. 
 
+![Určení vektoru](img/vektor.svg)
+
+
 ## Silová dvojice 
 
 Pokud jsou ale dvě síly rovnoběžné, stejně veliké a opačně orientované, neumíme je nahradit jednou osamělou silou. Toto se nazývá silovou dvojicí. Ta způsobuje točivý účinek a ten vyjadřujeme pomocí momentu. Ten vypočteme ze vztahu 
